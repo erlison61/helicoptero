@@ -14,7 +14,7 @@ public class Helicopter{
         this.quantidadePessoa=0;
     }
 
-    //metodo para visialização do objeto
+    //metodo para visualização do objeto
     public void status() {
         System.out.println("esta ligado:" +(getLigado()==true?"sim":"não"));
         System.out.println("capacidade:" + getCapacidade());
