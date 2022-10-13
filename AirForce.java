@@ -5,7 +5,7 @@ public class AirForce {
         h1.ligar();
         h1.decolar(10);
         h1.entrar();
-        h1.status();
+        h1.toString();
         System.out.println("");
         
         Helicopter h2=new Helicopter(4); 
@@ -13,7 +13,7 @@ public class AirForce {
         h2.decolar(10);
         h2.entrar();
         h2.entrar();
-        h2.status();
+        h2.toString();
         
     }
 }
