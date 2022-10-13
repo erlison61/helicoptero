@@ -15,11 +15,8 @@ public class Helicopter{
     }
 
     //metodo para visualização do objeto
-    public void status() {
-        System.out.println("esta ligado:" +(getLigado()==true?"sim":"não"));
-        System.out.println("capacidade:" + getCapacidade());
-        System.out.println("altitude:" + getAltitude() + "metro(s)");
-        System.out.println("quantidade:"+getQuantidade());
+    public String toString() {
+        return "esta ligado:" +(getLigado()==true?"sim":"não")+"\ncapacidade:" + getCapacidade()+"\naltitude:" + getAltitude() + "metro(s)"+"\nquantidade:"+getQuantidade();
     }
     
     //metodos especiais
