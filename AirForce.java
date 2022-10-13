@@ -5,15 +5,15 @@ public class AirForce {
         h1.ligar();
         h1.decolar(10);
         h1.entrar();
-        h1.toString();
-        System.out.println("");
+        
+        System.out.println(h1.toString());
         
         Helicopter h2=new Helicopter(4); 
         //h2.ligar();
         h2.decolar(10);
         h2.entrar();
         h2.entrar();
-        h2.toString();
+        System.out.println(h2.toString());
         
     }
 }
